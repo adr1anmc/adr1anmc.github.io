@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Práctica</title>
+        <style>
+            body{
+    background: rgb(161,140,209);
+    background: linear-gradient(90deg, rgba(161,140,209,1) 0%, rgba(251,194,235,1) 100%);
+}
+
+.contenedor-principal{
+    background: rgba(248, 104, 255, 0.493);
+    width: 98%;
+    margin: auto;
+    box-shadow: 10px 10px 10px #999;
+}
+
+header{
+    margin: auto;
+    background-color: rgba(128, 0, 128, 0.3);
+    width: 100%;
+}
+h1, p, a{
+    text-align: center;
+    font-family: arial;
+    color: #FDCEFF;
+}
+footer{
+    font-family: arial;
+    background-color: rgba(128, 0, 128, 0.3);
+    width: 100%;
+    margin: auto;
+    color: #FDCEFF;
+}
+
+.contenedor-secundario{
+    border: 2px solid #800080;
+    width: 600px;
+    margin: auto;
+    height: 550;
+}
+
+blockquote{
+    padding: 1%;
+}
+
+a:hover{
+    color: #F865FF;
+}
+*{box-sizing: border-box;}
+[class *= "secundario-"]{
+    width: 24%;
+    height: 150px;
+    border: 1px solid white;
+    display: inline-block;
+}
+.imagen-principal{
+    width: 100%;
+    height: 400px;
+    border: 2px solid #800080;
+    display: inline-block;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+
+input{
+    margin-left: 2%;
+    background-color: #FDCEFF;
+    width: 30%;
+    height: 20px;
+    border-radius: 10px;
+    border-color: white;
+    color: #F865FF;
+}
+#button{
+    color: #F865FF;
+    background-color: #FDCEFF;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    width: 10%;
+    height: 20px;
+    border-color: white;
+}
+#button:hover{
+    color: #FDCEFF;
+    background-color: #F865FF;
+}
+
+        </style>
+        <script>
+            var zFondos150 = ["url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzlTQ003jK64TvCgrCaD3ABeG5U5E_kMum-A&usqp=CAU')","url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GYPCp3UF6vSKtoxaiQhJnC_ZXzYYsah4-Q&usqp=CAU')","url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtxhYsw6qLHuk2hTlIZnBdkpHOCRx7JmkvNw&usqp=CAU')","url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI2tjNlfFWSb-gCOzEsqraoRMHXRjVUqClvg&usqp=CAU')"];
+var zFondos600 = ["url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzlTQ003jK64TvCgrCaD3ABeG5U5E_kMum-A&usqp=CAU')","url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GYPCp3UF6vSKtoxaiQhJnC_ZXzYYsah4-Q&usqp=CAU')","url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtxhYsw6qLHuk2hTlIZnBdkpHOCRx7JmkvNw&usqp=CAU')","url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI2tjNlfFWSb-gCOzEsqraoRMHXRjVUqClvg&usqp=CAU')"];
+
+var imagenPrincipal = document.querySelectorAll(".imagen-principal")[0];
+var secundario = document.querySelectorAll('[class *= "secundario-"]');
+
+imagenPrincipal.style.backgroundImage =zFondos600[0];
+secundario[0].style.backgroundImage =zFondos150[0];
+secundario[1].style.backgroundImage =zFondos150[1];
+secundario[2].style.backgroundImage =zFondos150[2];
+secundario[3].style.backgroundImage =zFondos150[3];
+
+secundario[0].addEventListener("mouseover",accion0);
+secundario[1].addEventListener("mouseover",accion1);
+secundario[2].addEventListener("mouseover",accion2);
+secundario[3].addEventListener("mouseover",accion3);
+
+function accion0(){imagenPrincipal.style.backgroundImage =zFondos600[0];}
+function accion1(){imagenPrincipal.style.backgroundImage =zFondos600[1];}
+function accion2(){imagenPrincipal.style.backgroundImage =zFondos600[2];}
+function accion3(){imagenPrincipal.style.backgroundImage =zFondos600[3];}
+
+function validarCorreo(correo){
+    var expReg= /^[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/;
+    var valido = expReg.test(correo);
+
+    if(valido == true){
+        window.alert("Gracias por suscribirte!");
+    } else{
+        window.alert("El correo ingresado no es valido.");
+    }
+}
+        </script>
+    </head>
+
+    <body>
+        
+        <div class="contenedor-principal">
+            <header>
+                <h1>&#128007 Tiny Tina &#128007</h1>
+                <p>Tina and her parents were sold to Hyperion.</p>
+            </header>
+
+            <center><div class="contenedor-secundario">
+                <div class="imagen-principal"></div>
+                <div class="secundario-1"></div>
+                <div class="secundario-2"></div>
+                <div class="secundario-3"></div>
+                <div class="secundario-4"></div>
+            </div></center>
+
+            <footer>
+                <blockquote>
+                    Tiny Tina, the world's smallest horse <br>
+                    Just a dollar to go see her <br>
+                    Just a dollar to see that little horse <br><br>
+                      <a href="https://borderlands.fandom.com/wiki/Tiny_Tina">-Tiny Tinas song. &#128007</a>
+                </blockquote>
+
+                <form action="">
+                    <h4 class="m">Introduce tu e-mail:</h4>
+                    <input type="email" placeholder="E-Mail" id="mail"><br>
+                    <input type="button" value="Suscribirse" id="button" onclick="validarCorreo(document.getElementById('mail').value)">
+                </form>
+            </footer>
+        </div>
+
+    </body>
