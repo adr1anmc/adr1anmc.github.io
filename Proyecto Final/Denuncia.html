@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link href="EstilosCSS/cascaron-style.css" rel="stylesheet"/>
+    <link href="EstilosCSS/Denuncia-style.css" rel="stylesheet"/>
+    <script src="JS/denuncia.js"></script>
+</head>
+
+<body>
+  <header>
+    <img class="oe" src="Imagenes/LogoOE.png">
+
+    <nav>
+      <ul id="menu">
+        <li><a href="cascaron.html">Inicio</a></li>
+        <li><a href="OA.html">Orientación academica</a>
+
+          <ul>
+            <li><a href="OA-AdminTime.html">Admistración del tiempo</a></li>
+            <li><a href="">Técnicas de estudio + APPS</a></li>
+            <li><a href="">Tipos de aprendizaje</a></li>
+          </ul>
+
+        </li>
+
+        <li><a href="">Orientación vocacional</a>
+          <ul>
+            <li><a href="">Test vocacional</a></li>
+            <li><a href="">Orientación para proyectos</a></li>
+            <li><a href="">Guia</a></li>
+          </ul>
+        </li>
+        <li><a href="ODH.html">Orientación desarrollo humano</a>
+        </li>
+
+          <li><a href="">Orientación familiar</a>
+            <ul>
+              <li><a href="">Escuela para padres</a></li>
+              <li><a href="">Boletín informativo</a></li>
+              <li><a href="">Formulario para padres de famila</a></li>
+              <li><a href="">Encuentro para padres</a></li>
+
+            </ul>
+          </li>
+      </ul>
+    </nav>
+</header>
+    <h1> Denuncias </h1>
+    <div class="R">
+        <h2>
+            * Tus denuncias se manejaran con total seriedad por parte de las autoridades de la escuela. <br>
+            * Si necesitas ayuda psicologica después de tu denuncia puedes indicarlo. <br>
+            * Tus datos serán completamente protegidos durante la denuncia. <br>
+            * El tiempo de respuesta es para una denuncia es de...
+        </h2>
+    </div>
+    
+    <div class="formulario">
+        <form action=""></form>
+            <label for="nombreDenuncia">Nombre:</label>
+            <input type="text" placeholder="Tu nombre" maxlength="15" id="nombreDenuncia">
+            <br><br>
+
+            <label for="gradoDenuncia">Grado:</label>
+            <input type="number" placeholder="Tu grado" maxlength="1" id="gradoDenuncia">
+            <label for="grupoDenuncia">Grupo:</label>
+            <input type="text" placeholder="Tu grupo" maxlength="1" id="grupoDenuncia">
+            <br><br>
+
+            <label> ¿Quién es la víctima? </label><br>
+            <input type="radio" id="victimaYo" name="fav_language" value="HTML">
+            <label for="victimaYo">Yo</label><br>
+            <input type="radio" id="victimaElle" name="fav_language" value="CSS">
+            <label for="victimaElle">Alguien más</label><br><br>
+            
+            <label for="lugar">¿Dónde sucedió?</label>
+            <input type="text" maxlength="150" id="lugar"><br><br>
+            <label for="suceso">¿Qué sucedió?</label>
+            <input type="text" maxlength="150" id="suceso"><br><br>
+
+            <input type="button" value="ENVIAR" onclick="enviarDenuncia()" id="enviar">
+        </form>
+    </div><br><br>
+    <h1>¡NO HAGAS DENUNCIAS FALSAS!</h1>
+    <div class="dImg"><img src="Imagenes/acusacion-falsa.jpg" class="img"></div><br>
+    
+    <p> Sabemos que una denuncia es el primer paso para tener justicia en un caso de violencia o acoso de
+      cualquier tipo, pero es necesario que conozcas que una denuncia falsa puede perjudicar a una persona y a 
+      ti mismo.
+      Es por eso que te pedimos que te abstengas de realizar una denuncia en caso de ser falso.
+      En cambio, si tu denuncia no es falsa, no tienes nada que temer. Tu denuncia será investigada por parte 
+      de las autoridades de la escuela y te daremos una solución.
+    </p>
+
+    <footer>
+        <h3>Escuela Politécnica de Guadalajara</h3>
+        <h4 style="margin-top: 10px;">Av, Revolucion No. 1500, Col. Universitaria, C. P. 44420, Guadalajara, Jalisco, México </h4>
+    </footer>
+</body>

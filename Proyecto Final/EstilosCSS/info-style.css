@@ -1,0 +1,24 @@
+.img{
+    width: 100%;
+    height: auto;
+}
+.divImgR{
+    width: 40%;
+    float: right;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+.divImgL{
+    width: 40%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+.divImgC{width: 70%; margin: auto;}
+a:hover{color: #77dd77;}
+h2{font-size:30px; padding:40px 0px; color:#002e5b;text-align: center;}
+h3{font-size:20px; color:#fdfd96;}
+h4{font: 15px; color: white;}
+.lista{font-size: 25px;padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;}
