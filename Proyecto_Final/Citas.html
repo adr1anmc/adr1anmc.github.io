@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <link href="EstilosCSS/cascaron-style.css" rel="stylesheet"/>
+    <link href="EstilosCSS/Denuncia-style.css" rel="stylesheet"/>
+    <script src="JS/denuncia.js"></script>
+</head>
+
+<body>
+  <header>
+    <img class="oe" src="Imagenes/LogoOE.png">
+
+    <nav>
+      <ul id="menu">
+        <li><a href="Inicio.html">Inicio</a></li>
+        <li><a href="OA.html">Orientación academica</a>
+
+          <ul>
+            <li><a href="OA-AdminTime.html">Admistración del tiempo</a></li>
+            <li><a href="Tecnicas.html">Técnicas de estudio + APPS</a></li>
+            <li><a href="TiposAprendizaje.html">Tipos de aprendizaje</a></li>
+          </ul>
+
+        </li>
+
+        <li><a href="OV.html">Orientación vocacional</a>
+          <ul>
+            <li><a href="OV-Test.html">Test vocacional</a></li>
+            <li><a href="OV-Proyectos.html">Orientación para proyectos</a></li>
+          </ul>
+        </li>
+        <li><a href="ODH.html">Orientación desarrollo humano</a>
+        </li>
+
+          <li><a href="OF.html">Orientación familiar</a> </li>
+      </ul>
+    </nav>
+</header><br><br><br><br>
+    <h1> Citas </h1>
+
+    <div class="divImgL"><img src="Imagenes/calendario.jpg" class="img"></div>
+    
+    <h2>Introduce los siguientes datos:</h2>
+
+    <div class="formulario" style="margin-left: 2%; margin-top:2%;">
+      <form action=""></form>
+          <label for="nombre">Nombre:</label>
+          <input type="text" placeholder="Tu nombre" maxlength="15" id="nombre">
+          <label for="apellido">Apellido:</label>
+          <input type="text" placeholder="Tu apellido" maxlength="15" id="apellido">
+          <br><br>
+
+          <label> ¿Eres alumno de la escuela? </label><br>
+          <input type="radio" id="si" name="fav_language" value="Si">
+          <label for="victimaYo">Si</label><br>
+          <input type="radio" id="no" name="fav_language" value="No">
+          <label for="victimaElle">No</label><br><br>
+          
+          <label for="lugar">¿Cuál es el motivo de la cita?</label>
+          <input type="text" maxlength="150" id="motivo"><br><br>
+          <label for="suceso">Indica la fecha de tu cita</label>
+          <input type="date" maxlength="150" id="fecha"><br><br>
+
+          <label for="mail">E-mail:</label>
+          <input type="e-mail" id="mail" placeholder="user@example.com"> <br><br>
+
+          <input type="button" value="ENVIAR" onclick="enviarCita()" id="enviar">
+      </form>
+  </div><br><br>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <footer>
+    <div class="logo" style="display: inline-block;"><img class="img" src="logo/OE.png"></div>
+    <div style="display: inline-block; margin-left: 1%;">
+    <h3>Escuela Politécnica de Guadalajara</h3>
+      <h4 style="margin-top: 10px;">Av, Revolucion No. 1500, Col. Universitaria, C. P. 44420, Guadalajara, Jalisco, México </h4>
+    </div>
+    </footer>
+</body>

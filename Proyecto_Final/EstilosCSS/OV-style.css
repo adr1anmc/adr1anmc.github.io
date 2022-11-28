@@ -1,0 +1,110 @@
+body{
+    background-color: aliceblue;
+}
+
+p{
+    text-align: left;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+a:hover{color: #77dd77;}
+
+.oe, .logo{
+  width: 3%;
+  height: 3%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+img.ori{
+  width: 50%;
+  height: 50%;
+  padding: 100px;
+}
+
+a{color: #ff6961;}
+
+
+*{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+
+h1{margin:0px auto; display:table; font-size:40px; padding:40px 0px; color:#77bb77; text-align:center;}
+h1{text-shadow: 3px  0px 0px black,
+    0px  3px 0px black,
+   -3px  0px 0px black,
+    0px -3px 0px black;
+}
+h2{font-size:30px; padding:40px 0px; color:#77bb77;text-align: center;}
+h3{font-size:20px; color:#fdfd96;}
+h4{font: 15px; color: white;}
+
+.lista{font-size: 25px;padding-left: 90px;
+        padding-right: 90px;
+        padding-bottom: 30px;
+}
+.divImgC{width: 70%; margin: auto;}
+.divImgCP{width: 30%; margin: auto; border: solid 2px #77bb77;}
+.divImgCP:hover{width: 35%; margin: auto; border: solid 2px #ff6961;}
+.divImgR{
+    width: 40%;
+    float: right;
+    margin-right: 1%;
+    margin-left: 2%;
+}
+.divImgL{
+    width: 40%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+.img{
+    width: 100%;
+    height: auto;
+}
+
+
+header{
+width:100%;
+display:table;
+background-color:#3accc0;
+margin-bottom:10px;
+position: fixed;}
+
+nav{width:auto;
+float:right;}
+
+*{
+margin: 0;
+padding: 0;
+}
+ul{
+list-style: none;
+}
+#menu li>a{
+background-color: #3accc0;
+color: white;
+padding: 10px;
+display: block;
+text-decoration: none;
+min-width: 100px;
+}
+#menu li>a:hover{
+color: #000;
+background-color: #eaeaea;
+}
+#menu>li{
+float: left;
+text-align:center;
+padding-top: 20px;
+}
+#menu>li>ul{
+display: none;
+}
+#menu>li:hover>ul {
+display:block;
+}
+
+footer{background-color: #3accc0; padding: 1% 1% 1% 2%;}

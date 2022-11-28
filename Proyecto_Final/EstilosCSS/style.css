@@ -1,0 +1,209 @@
+        body{
+            background-color: aliceblue;
+        }
+
+        .luna{
+            text-align: justify;
+            padding-left: 90px;
+            padding-right: 90px;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            font-size: 25px;
+        }
+
+        .cosa{
+          text-align: center;
+
+        }
+        .directorios{
+          text-align: center;
+          font-style: italic;
+        }
+        .apoyo-2{
+          padding-left: 60px;
+        }
+
+
+        .acciones{
+          text-align: center;
+          font-size: 19px;
+          font-family: cursive;
+        }
+
+        .oe{
+          width:  5%;
+          height: 5%;
+          padding: 10px;
+        }
+        .oe-2{
+          width:  200px;
+          height: 200px;
+          padding: 10px;
+          margin: 10px;
+        }
+
+
+        .ori{
+          background-attachment: fixed;
+          width: 85%;
+          height: 80%;
+          margin-top: 0px;
+          margin: 98px;
+          border: 2px solid #fdfd96;
+
+        }
+
+        .SM{
+          width: 900px;
+
+        margin-left: 230px;
+          border: 2px solid #fdfd96;
+        }
+
+        .cere{
+          float: right;
+          width: 30%;
+          margin: 10px 40px;
+          padding: 5px;
+          border: 1px solid black  }
+
+          .ceres{
+            float: right;
+            width: 20%;
+            margin: 10px 40px;
+            padding: 5px;
+            }
+
+        .aca{
+          display: inline-block;
+          width: 250px;
+          margin: 40px;
+          margin-bottom: 2px;
+        }
+
+
+        .aca:hover {
+          border: 1px solid yellow;
+        }
+          .texto{
+            display: inline-block;
+            width: 250px;
+            height: 10px;
+            margin: 40px;
+            margin-top: 0;
+            background-color: aliceblue;}
+
+
+        .caja-1{
+          margin-left:  100px;
+          background-color:  #77dd77;
+          width: 567px;
+          height: 500px;
+          display: inline-block;
+        }
+        .verde{
+          font-family: monospace;
+          text-align: left;
+          color: white;
+          font-size: 47px;
+          padding-left: 90px;
+          padding-right: 90px;
+          padding-bottom: 0px;
+        }
+        .azul{
+          font-family: sans-serif;
+          font-size: 25px;
+          text-align: left;
+          padding-left: 90px;
+          padding-right: 90px;
+          padding-bottom: 0px;
+        }
+
+        .caja-2{
+          float: right;
+          margin-right:  100px;
+          background-color: #b2dafa;
+          top: 10px;
+          width: 566px;
+          height: 500px;
+          padding-right: 10px
+        }
+
+
+        *{text-decoration:none; list-style:none; margin:0px; padding:0px; outline:none;}
+body{margin:0px; padding:0px; font-family: 'Open Sans', sans-serif;}
+
+h1{margin:0px auto; display:table; font-size:50px; padding:40px 0px; color: black; text-align:center; }
+h1.color{ color: #F9F6AC; text-shadow: 3px  0px 0px black,
+               0px  3px 0px black,
+              -3px  0px 0px black,
+               0px -3px 0px black;}
+
+        h2{
+          padding-left: 100px;
+          font-size: 30px;
+        }
+ h3{font-size:20px; color:#fdfd96;}
+h4{font: 15px; color: white;}
+
+header{
+  width:100%;
+  display:table;
+  background-color:#3accc0;
+  margin-bottom:10px;
+overflow: hidden;}
+
+  .header2{
+    position: fixed;
+  }
+
+nav{width:auto;
+  float:right;
+  overflow: hidden;}
+
+*{
+margin: 0;
+padding: 0;
+}
+ul{
+list-style: none;
+}
+#menu li>a{
+background-color: #3accc0;
+color: white;
+padding: 10px;
+display: block;
+text-decoration: none;
+min-width: 100px;
+}
+#menu li>a:hover{
+color: #000;
+background-color: #eaeaea;
+}
+#menu>li{
+float: left;
+text-align:center
+}
+#menu>li>ul{
+display: none;
+}
+#menu>li:hover>ul {
+display:block;
+}
+
+
+.apoyo{
+  margin-left:  100px;
+  background-color: #D9EEEB;
+  width: 85%;
+  height: 100px;
+}
+footer{background-color: #3accc0; padding: 1% 1% 1% 2%;}
+
+.logo{
+  width: 3%;
+  height: 3%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
